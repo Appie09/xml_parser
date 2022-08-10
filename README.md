@@ -25,6 +25,7 @@ All in all, here are few things can be optimized and done differently overall:
 4) More data transformation for text readability can be deployed.
 5) Error handling for data quality or system performace can be deployed.
 6) The code be more organised, functional and dynamic.
+7) Data can be chunkified.
 
 At last, for the data transformation, i have included a small SQL query for 2 cases:
 
@@ -32,7 +33,7 @@ At last, for the data transformation, i have included a small SQL query for 2 ca
  - Two separate columns for badges “Critic” and “Editor” with boolean flags (1/0 or true/false),
 i.e. “is_critic” and “is_editor”
 
-P.S - i have masked my s3 connection details and the data is not available on a DB that you can access. I used my private resources for this but i am attaching some screenshots for references.
+i have masked my s3 connection details and the data is not available on a DB that you can access. I used my private resources for this but i am attaching some screenshots for references. Also, i did not load the whole data, only a chunk for the prototype.
 
 s3 bucket: 
 
@@ -49,7 +50,7 @@ Transformed data in datagrip:
 ![Screenshot 2022-08-10 at 02 43 46](https://user-images.githubusercontent.com/49339348/183786040-7d52abc8-d36a-4848-8c18-0c228e856229.png)
 
 
-Please let me know if any other information is required or if i am missing anything! Thanks.
+Please let me know if any other information is required or if i am missing anything! In case you do need me to put this data on a free db server, please let me know. Thanks.
 
 
 
